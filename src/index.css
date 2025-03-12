@@ -1,5 +1,10 @@
 body {
   background-color: mediumpurple;
+
+  font-family: "Chivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .main-body {
