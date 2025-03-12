@@ -39,6 +39,7 @@ a {
 .weather-data {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 main {
@@ -58,6 +59,26 @@ main {
 
 .weather-details strong {
   color: rgb(199, 12, 75);
+}
+
+.temp {
+  display: flex;
+  margin-top: 22px;
+}
+
+.temp-icon {
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.temp-value {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.temp-unit {
+  font-size: 30px;
+  margin-top: 10px;
 }
 
 footer {
