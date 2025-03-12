@@ -1,0 +1,11 @@
+body {
+  background-color: mediumpurple;
+}
+
+.main-body {
+  background: white;
+  max-width: 600px;
+  margin: 45px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
