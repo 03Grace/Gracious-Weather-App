@@ -67,8 +67,8 @@ main {
 }
 
 .temp-icon {
-  font-size: 35px;
-  margin-top: 10px;
+  width: 60px;
+  height: 60px;
 }
 
 .temp-value {
@@ -79,6 +79,7 @@ main {
 .temp-unit {
   font-size: 30px;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 footer {

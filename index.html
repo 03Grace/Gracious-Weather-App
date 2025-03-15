@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     
-    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src\index.css" />
     <title>Weather App</title>
   </head>
@@ -36,12 +36,12 @@
           <div>
             <h1 class="weather-city" id="city">Paris</h1>
             <p class="weather-details">
-              Wednesday 16:29, Scattered Clouds
+              <span id="time"> Wednesday 16:29</span>, <span id="description">Scattered Clouds</span>
               <br />
-              Humidity: <strong>66%</strong>, Wind: <strong>3.13 Km/h</strong>
+              Humidity: <strong id="humidity">66</strong><strong>%</strong>, Wind: <strong id="wind">3.13 Km/h</strong>
             </p>
           </div>
-          <div class="temp"> <div class = "temp-icon">⛅</div><div class="temp-value" id="temperature">18</div> <div class="temp-unit">C</div>
+          <div class="temp"> <div class = "temp-icon"></div><div class="temp-value" id="temperature">18</div> <div class="temp-unit">°C</div>
         </div>
       </main>
 
