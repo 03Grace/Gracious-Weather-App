@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Kumar+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
-    
+
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src\index.css" />
     <title>Weather App</title>
@@ -31,17 +31,61 @@
           <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
+
       <main>
         <div class="weather-data">
           <div>
             <h1 class="weather-city" id="city">Paris</h1>
             <p class="weather-details">
-              <span id="time"> Wednesday 16:29</span>, <span id="description">Scattered Clouds</span>
-              <br />
-              Humidity: <strong id="humidity">66</strong><strong>%</strong>, Wind: <strong id="wind">3.13 Km/h</strong>
+              <span id="time">Wednesday 16:29</span>,
+              <span id="description">Scattered Clouds</span><br />
+              Humidity: <strong id="humidity">66%</strong>, Wind:
+              <strong id="wind">3.13 Km/h</strong>
             </p>
           </div>
-          <div class="temp"> <div class = "temp-icon"></div><div class="temp-value" id="temperature">18</div> <div class="temp-unit">°C</div>
+          <div class="temp">
+            <div class="temp-icon"></div>
+            <div class="temp-value" id="temperature">18</div>
+            <div class="temp-unit">°C</div>
+          </div>
+        </div>
+
+        <div class="weather-forecast">
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Tue</div>
+            <div class="weather-forecast-icon">🌤️</div>
+            <div class="weather-forecast-temps">
+              <div class="weather-forecast-temp"><strong>15°</strong></div>
+              <div class="weather-forecast-temp">9°</div>
+            </div>
+          </div>
+
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Wed</div>
+            <div class="weather-forecast-icon">🌤️</div>
+            <div class="weather-forecast-temps">
+              <div class="weather-forecast-temp"><strong>9°</strong></div>
+              <div class="weather-forecast-temp">19°</div>
+            </div>
+          </div>
+
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Thur</div>
+            <div class="weather-forecast-icon">🌤️</div>
+            <div class="weather-forecast-temps">
+              <div class="weather-forecast-temp"><strong>19°</strong></div>
+              <div class="weather-forecast-temp">23°</div>
+            </div>
+          </div>
+
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Fri</div>
+            <div class="weather-forecast-icon">🌤️</div>
+            <div class="weather-forecast-temps">
+              <div class="weather-forecast-temp"><strong>23°</strong></div>
+              <div class="weather-forecast-temp">9°</div>
+            </div>
+          </div>
         </div>
       </main>
 
